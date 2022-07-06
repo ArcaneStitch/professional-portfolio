@@ -1,0 +1,73 @@
+:root {
+  --padding: 1%;
+  --width: 35%;
+  --height: 25%;
+  --display-flex: flex;
+}
+
+hr {
+  border-style: dotted none none;
+  display: block;
+  border-color: grey;
+  border-width: 10px;
+  width: 8%;
+}
+
+body {
+  background-color: rgba(174, 231, 255, 0.6);
+}
+
+h1 {
+  color: rgba(10, 62, 152, 0.6);
+}
+
+h2,
+h3 {
+  color: rgba(45, 110, 224, 0.6);
+}
+
+.css-image {
+  padding: var(--padding, 1%);
+  width: var(--width, 35%);
+  height: var(--height, 25%);
+  display: var(--display-flex, flex);
+}
+.html-image {
+  padding: var(--padding, 1%);
+  width: var(--width, 35%);
+  height: var(--height, 25%);
+  display: var(--display-flex, flex);
+}
+
+.html-image:hover {
+  padding: var(--padding, 1%);
+  width: 40%;
+  height: 30%;
+  display: var(--display-flex, flex);
+}
+
+.css-image:hover {
+  padding: var(--padding, 1%);
+  width: 40%;
+  height: 30%;
+  display: var(--display-flex, flex);
+}
+
+.heading {
+  text-align: center;
+}
+
+#profile {
+  padding: var(--padding, 1%);
+  width: 12%;
+  height: 8%;
+  align-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  section,
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+}
